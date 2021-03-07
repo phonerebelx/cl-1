@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+}
+
+.c-1{
+    background-image:linear-gradient(50deg,rgb(0, 0, 0),rgba(235, 100, 100, 0.411)),url(https://source.unsplash.com/user/erondu/1600x900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    /* width: 100vh; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.insider{
+    background: rgba(0, 0, 0, 0.575);
+    position: relative;
+    top: 10%;
+    height: 500px;
+    width: 400px;
+    box-shadow: 5px 10px 18px #000000a4;
+
+}
+
+
+.insider-1{
+    color: white;
+    /* position: absolute; */
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+input:focus{
+    outline: none;
+
+}
+.inp input{
+    margin-top: 50px;
+    width: 90%;
+    background: none;
+    border: none;
+    border-bottom:1px solid rgb(136, 131, 131) ;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    
+}
+
+
+.abs{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    /* width: 100%; */
+    left: 30px;
+    margin-top: -7%;
+    font-size: 18px;
+    pointer-events:none;
+    transition: all 0.3s;
+    
+}
+.inp input:focus ~ .abs,
+.inp input:valid ~ .abs
+{
+    color: rgba(252, 252, 252, 0.575);
+    transform: translateY(-20px);
+    font-size: 14px;
+    /* color: rgba(90, 243, 30, 0.466); */
+    position: absolute;
+    left: 20px;
+}
+
+.forgot{
+    color: white;
+    /* position: absolute; */
+    /* left: 5%; */
+    /* top:-50px; */
+
+    margin-top: 10%;
+    
+}
+
+input[type="button"]{
+    width: 40%;
+    background: rgba(126, 126, 126, 0.438);
+    border: none;
+    font-size: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+}
+
+.log-1{
+    color: white;
+    margin-top: 20px;
+}
+/*  */
+.facebook{
+    background:#3b5998 ;
+    height: 7%;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.facebook img[src="./fb.png"]{
+   margin-top: 5%;
+   margin-left: -70%;
+}
+
+.facebook img[src="./fb.png"] ~ p{
+    margin-top: -23%;
+    margin-left: 20%;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.instagram{
+    background:#e95950;
+    width: 30%;
+    height: 7%  ;
+    margin-top: -8.7%;
+    margin-left: 50%;
+    
+}
+.instagram img[src="./insta.png"]{
+    margin-top: -3%;
+    margin-left: -70%;
+}
+
+.instagram img[src="./insta.png"] ~ p{
+    margin-top: -32%;
+    margin-left: 20%;
+}
+
+.Signup p{
+    color: white;
+}
+
+.Signup a{
+    color: rgb(46, 113, 214);
+}
